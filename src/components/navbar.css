@@ -4,6 +4,7 @@
     background-color: #A64B2A;
     display: flex;
     flex-direction: row;
+    overflow: hidden;
 }
 
 .navbar .lef-column {

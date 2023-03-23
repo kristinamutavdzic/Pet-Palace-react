@@ -70,7 +70,7 @@
 
   .kolicinaPlus:hover{
     transform: scale(1.1);
-    color: #A0C3D2;
+    color: #F7F5EB;
     cursor: pointer;
   }
 
@@ -86,14 +86,31 @@
     padding: 5px;
   }
 
-  .checkout button {
-    width: 150px;
-    height: 50px;
-    background-color: rgb(19, 19, 19);
-    color: white;
-    border: none;
+  .ukupno, .prazna{
+    color: #D7A86E;
+    font-size: 20px;
+    width: 100%;
+  }
+
+  .nastavi, .placanje{
+    background: #D7A86E;
+    padding: 10px;
+    padding-top: 5px;
+    margin: 5px;
     border-color: #A64B2A;
-    border-radius: 8px;
-    margin: 10px;
+    border-radius: 15px;
+    border-style: double;
+    color: #A64B2A;
+    transform: scale(1);
+    transition: transform 0.3s ease;
+  }
+
+  .nastavi:hover, .placanje:hover{
+    color:#A0C3D2;
+    transform: scale(1.1);
     cursor: pointer;
+
+  }
+  .korpaCheckout{
+    background: #D7A86E;
   }
