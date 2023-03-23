@@ -6,8 +6,10 @@ import {Cart} from './pages/cart/Korpa'
 import { ProizvodiContextProvider } from './context/ProizvodiContext';
 import Footer from './components/footer';
 import ONama from './pages/ONama'
+import CopyButton from "./components/CopyButton";
 
 function App() {
+  const telefon = "+381 657890345";
   return (
     <ProizvodiContextProvider>
               <Router>
@@ -18,6 +20,7 @@ function App() {
                 <Route path="/onama"  element={<ONama />} />
               </Routes>
               <Footer/>
+              <CopyButton textToCopy={telefon}/> 
             </Router>
       </ProizvodiContextProvider>
   );

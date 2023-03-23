@@ -14,7 +14,7 @@ function Footer() {
             <FacebookIcon />
           </a>
           </div>
-          <p> &copy; 2023 Pet Palace </p>
+          <p> &copy; 2023 Pet Palace <br></br>Broj telefona: +381 657890345 </p>
     </div>
   )
 }
