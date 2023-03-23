@@ -1,0 +1,28 @@
+.footer {
+    height: 95px;
+    background-color: #A64B2A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+.socialMediaIcons svg {
+    color:  #F7F5EB;
+    margin: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.socialMediaIcons svg:hover{
+    color:  #D7A86E;
+    transform: translateY(-3px);
+}
+
+.footer p {
+    color:  #F7F5EB;
+    font-size: 20px;
+}
