@@ -5,6 +5,7 @@ import {Shop} from './pages/shop/Prodavnica'
 import {Cart} from './pages/cart/Korpa'
 import { ProizvodiContextProvider } from './context/ProizvodiContext';
 import Footer from './components/footer';
+import ONama from './pages/ONama'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
               <Routes>
                 <Route path="/" element={<Shop />}/>
                 <Route path="/cart" element={<Cart/>}/>
+                <Route path="/onama"  element={<ONama />} />
               </Routes>
               <Footer/>
             </Router>
