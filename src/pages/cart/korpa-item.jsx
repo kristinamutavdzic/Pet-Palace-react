@@ -19,7 +19,6 @@ export const KorpaItem=(props)=>{
             <div className="kolicinaHandler">
                 {/* za smanjivanje kolicine*/}
             <button className="kolicinaPlus" onClick={() => izbrisiIzKorpe(id)}> - </button>
-            {/*moze se menjati kolicina preko input polja*/}
                 <input className = "kolicinaInput" value={korpaItems[id]} />
                 {/* za povecanje kolicine*/}
             <button className="kolicinaPlus" onClick={() => dodajUKorpu(id)}> + </button>
