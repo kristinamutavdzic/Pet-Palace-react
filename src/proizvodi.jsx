@@ -8,9 +8,6 @@ import img7 from './images/ogrlica1.png'
 import img8 from './images/ogrlica2.png'
 import img9 from './images/cesalj1.png'
 
-
-
-
 export const PROIZVODI=[
     {
         id: 1,
