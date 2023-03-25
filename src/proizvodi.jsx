@@ -8,6 +8,7 @@ import img7 from './images/ogrlica1.png'
 import img8 from './images/ogrlica2.png'
 import img9 from './images/cesalj1.png'
 
+//Niz od 9 proizvoda, za svaki 4 atributa: id, naziv, cena, slika(iz images folder-a) 
 export const PROIZVODI=[
     {
         id: 1,

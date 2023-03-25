@@ -10,6 +10,7 @@ export const Shop = () => {
              <h1>Pronadjite pravi proizvod za Vaseg ljubimca:</h1>
             </div>
             <div className="products">
+                {/* mapira svaki od proizvoda jedan po jedan */}
                 {PROIZVODI.map((product)=>(
                 <Product data={product}/>))}
             </div>

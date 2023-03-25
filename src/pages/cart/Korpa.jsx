@@ -7,9 +7,9 @@ import { useState } from "react";
 import "./korpa.css"
 
 export const Cart = () => {
-
+    //za cuvanje stanja poruke
     const [showMessage, setShowMessage] = useState(false);
-
+    //funkcija za ispis poruke i porucivanje proizvoda
     const poruka = (event) => {
         event.preventDefault();
         setShowMessage(true);
@@ -17,7 +17,7 @@ export const Cart = () => {
         window.location.reload();
         return false;
       };
-      
+      //kolicina i ukupno za placanje
       const{korpaItems,ukupnoZaPlacanje}=useContext(ProizvodiContext);
 
       const ukupno = ukupnoZaPlacanje();
@@ -31,6 +31,7 @@ export const Cart = () => {
         <div><h1 className="naslov"> Dodati proizvodi u korpi </h1></div>
 
         <div className="korpaItems">
+        {/* mapira proizvode iz korpe ukoliko ih ima*/}
         {PROIZVODI.map((product)=> {
         if(korpaItems[product.id]!=0){
             return <KorpaItem data={product}/>
